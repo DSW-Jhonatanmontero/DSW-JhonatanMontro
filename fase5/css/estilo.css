@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #533e85;
+    padding: 20px;
+    color: royalblue;
+    text-align: center;
+
+}
+nav {
+
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+article {
+   background-color: #c1f8cf;
+   color: black;
+   grid-column:1/4 ;
+}
+
+aside{
+    background-color: yellow;
+    text-align: center;
+    grid-column:4/5;
+}
+
+footer{
+    
+         background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+    header{
+        flex-direction: column;
+
+    }
+
+    
+    
+}
+
